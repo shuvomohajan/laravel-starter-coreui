@@ -1,0 +1,30 @@
+@import './simplebar.min.css';
+@import './style.min.css';
+
+.simplebar-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+.btn-dark {
+    background-color: #181c32;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    background-color: #272b44;
+}
+
+.card > .card-header {
+    background-color: #fff;
+}
+
+.sidebar-nav .nav-link {
+    padding: 0.625rem 1rem;
+}
